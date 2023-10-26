@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-windows">
+        <div class="desktop-icon">
+            <div class="icon">
+                <img src="./icon/windows-folder-closed.svg">
+            </div>
+            <div class="name">
+                New folder
+            </div>
+        </div>
+    </div>
+    <div class="taskbar">
+        <div class="taskbar-element menu-button">
+            <figure>
+                <img src="./icon/windows-icon.svg">
+            </figure>
+            <div class="name">
+                Start
+            </div>
+        </div>
+        <div class="application">
+            <div class="taskbar-element">
+                <figure>
+                    <img src="./icon/windows-folder.svg">
+                </figure>
+                <div class="name">
+                    Icon - Text
+                </div>
+            </div>
+            <div class="taskbar-element">
+                <figure>
+                    <img src="./icon/windows-folder.svg">
+                </figure>
+                <div class="name">
+                    Icon - Text
+                </div>
+            </div>
+            <div class="taskbar-element">
+                <figure>
+                    <img src="./icon/windows-folder.svg">
+                </figure>
+                <div class="name">
+                    Icon - Text
+                </div>
+            </div>
+            <div class="taskbar-element">
+                <figure>
+                    <img src="./icon/windows-folder.svg">
+                </figure>
+                <div class="name">
+                    Icon - Text
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div class="date">3:06 PM</div>
+        </div>
+    </div>
+</body>
+
+<style>
+    .desktop-icon {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .main-windows {
+        height: 95%;
+    }
+
+    body {
+        background-color: #55AAAA;
+    }
+
+    .application {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .taskbar {
+        display: flex;
+        background-color: #C3C7CB;
+        padding: 2px;
+        width: 100%;
+        height: 5%;
+    }
+
+    .application {
+        display: flex;
+        flex-grow: 1;
+        gap: 3px;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .taskbar-element {
+        display: flex;
+        border: 2px solid;
+        border-top-color: white;
+        border-left-color: white;
+        border-bottom-color: black;
+        border-right-color: black;
+        padding: 3px;
+    }
+
+    .taskbar-element .name {
+        align-self: center;
+        margin-left: 3px;
+    }
+
+    .taskbar-element figure img {
+        height: 100%;
+    }
+
+    .toolbar {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        border-left-color: #84888C;
+        border-top-color: #84888C;
+        border-right-color: #E6E7E9;
+        border-bottom-color: #E6E7E9;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+
+
+    .menu-button {
+        font-size: 30px;
+    }
+</style>
+
+</html>
